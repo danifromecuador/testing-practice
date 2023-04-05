@@ -15,13 +15,13 @@ const reverseString = (string) => {
   return lastArr;
 };
 
-// create calculator object that has 4 methods: add, subtract, divide, and multiply
-// const calculator = {
-//   add: (a, b) => a + b,
-//   subtract: (a, b) => a - b,
-//   multiply: (a, b) => a * b,
-//   divide: (a, b) =>  a / b,
-// };
+create calculator object that has 4 methods: add, subtract, divide, and multiply
+const calculator = {
+  add: (a, b) => a + b,
+  subtract: (a, b) => a - b,
+  multiply: (a, b) => a * b,
+  divide: (a, b) =>  a / b,
+};
 
 
 console.log(calculator.add(.1, .2));
