@@ -15,9 +15,9 @@ test('check if the string length has 10 or less characters', () => {
   expect(stringLength(stringToBeTested)).toBeLessThanOrEqual(10);
 });
 
-// test('check if the string was reversed', () => {
-//   expect(reverseString(stringToBeTested)).toBe(stringToBeTested.split('').reverse().join(''));
-// });
+test('check if the string was reversed', () => {
+  expect(reverseString(stringToBeTested)).toBe(stringToBeTested.split('').reverse().join(''));
+});
 
 
 // describe('calculator', () => {
