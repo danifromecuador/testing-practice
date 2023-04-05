@@ -7,9 +7,9 @@ test('return the length of the string', () => {
   expect(stringLength(stringToBeTested)).toBe(stringToBeTested.length);
 });
 
-// test('check if the string has at least one character', () => {
-//   expect(stringLength(stringToBeTested)).toBeGreaterThan(0);
-// });
+test('check if the string has at least one character', () => {
+  expect(stringLength(stringToBeTested)).toBeGreaterThan(0);
+});
 
 // test('check if the string length has 10 or less characters', () => {
 //   expect(stringLength(stringToBeTested)).toBeLessThanOrEqual(10);
