@@ -15,7 +15,6 @@ const reverseString = (string) => {
   return lastArr;
 };
 
-create calculator object that has 4 methods: add, subtract, divide, and multiply
 const calculator = {
   add: (a, b) => a + b,
   subtract: (a, b) => a - b,
