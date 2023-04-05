@@ -1,11 +1,11 @@
-// const { stringLength} = require('./index.js');
-// const stringToBeTested = 'danieldel';
-// // const firstNumer = 2;
-// // const secondNumer = 3;
+const { stringLength} = require('./index.js');
+const stringToBeTested = 'danieldel';
+// const firstNumer = 2;
+// const secondNumer = 3;
 
-// test('return the length of the string', () => {
-//   expect(stringLength(stringToBeTested)).toBe(stringToBeTested.length);
-// });
+test('return the length of the string', () => {
+  expect(stringLength(stringToBeTested)).toBe(stringToBeTested.length);
+});
 
 // test('check if the string has at least one character', () => {
 //   expect(stringLength(stringToBeTested)).toBeGreaterThan(0);
