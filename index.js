@@ -4,9 +4,26 @@ const stringLength = (string) => {
   return string.length;
 };
 
+const reverseString = (string) => {
+  let array = string.split('');
+  let newArr = [];
+  let lastArr = [];
+  for (let i = array.length - 1; i >= 0; i--) {
+    newArr.push(array[i]);
+  }
+  lastArr = newArr.join('');
+  return lastArr;
+};
 
+// create calculator object that has 4 methods: add, subtract, divide, and multiply
+// const calculator = {
+//   add: (a, b) => a + b,
+//   subtract: (a, b) => a - b,
+//   multiply: (a, b) => a * b,
+//   divide: (a, b) =>  a / b,
+// };
 
 
 console.log(calculator.add(.1, .2));
 
-module.exports = { stringLength };
+module.exports = { stringLength, reverseString, calculator }
