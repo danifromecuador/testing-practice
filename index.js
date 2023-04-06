@@ -1,7 +1,9 @@
+// TASK 1  ////////////////////////////////////////////////////////////////////////////////////////
 const stringLength = (string) => { 
   return string.length;
 };
 
+// TASK 2 /////////////////////////////////////////////////////////////////////////////////////////
 const reverseString = (string) => {
   let array = string.split('');
   let newArr = [];
@@ -13,6 +15,7 @@ const reverseString = (string) => {
   return lastArr;
 };
 
+// TASK 3 /////////////////////////////////////////////////////////////////////////////////////////
 const calculator = {
   add: (a, b) => a + b,
   subtract: (a, b) => a - b,
@@ -20,6 +23,7 @@ const calculator = {
   divide: (a, b) =>  a / b,
 };
 
+// TASK 4 /////////////////////////////////////////////////////////////////////////////////////////
 const capitalize = (string) => {
   let firstLetterInUpperCase = string.charAt(0).toUpperCase();
   return firstLetterInUpperCase + string.substring(1);
