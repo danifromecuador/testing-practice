@@ -1,6 +1,4 @@
-const stringLength = (string) => {
-  if (string.length > 0 && string.length <= 10) return string.length;
-  if (stringLength > 10) return 'error, the string is too long';  
+const stringLength = (string) => { 
   return string.length;
 };
 
@@ -22,7 +20,9 @@ const calculator = {
   divide: (a, b) =>  a / b,
 };
 
+const capitalize = (string) => {
+  let firstLetterInUpperCase = string.charAt(0).toUpperCase();
+  return firstLetterInUpperCase + string.substring(1);
+};
 
-console.log(calculator.add(.1, .2));
-
-module.exports = { stringLength, reverseString, calculator }
+module.exports = { stringLength, reverseString, calculator, capitalize }
